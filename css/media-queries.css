@@ -4,11 +4,33 @@
 
 @media screen and (max-width:1160px) {
     .container {
-        max-width: 100%
+        max-width: 1100px;
+        width: 100%;
     }
+
+
+    .text {
+        color: blue;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .why-us .col-left{
+        flex-shrink: 1;
+    }
+
+    .text {
+        color: red;
+
+    }
+
 
 }
 
-@media screen and (max-width:768px) {}
+@media screen and (max-width:480px) {
+    .text {
+        color: rgb(44, 240, 4);
 
-@media screen and (max-width:480px) {}
+    }
+}
